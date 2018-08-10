@@ -113,7 +113,9 @@ type %userprofile%\.ssh\id_rsa.pub | clip
 
 ###重新创建Agent
 [参见](https://confluence.jetbrains.com/display/TCD18//Setting+up+and+Running+Additional+Build+Agents#SettingupandRunningAdditionalBuildAgents-InstallingviaZIPFile)
+
 由于docker是linux, 内置Agent是不能编译iOS文件的, 这就需要我们本机Agent
+
 1. 点击`Agents`
 2. 选择`Install Build Agents`
 3. 选择`Zip file distribution`下载文件包
